@@ -1,0 +1,22 @@
+{
+  "name": "paper-rock-scissors",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iAlgebra/paper-rock-scissors.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iAlgebra/paper-rock-scissors/issues"
+  },
+  "homepage": "https://github.com/iAlgebra/paper-rock-scissors#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  }
+}

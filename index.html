@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Rock Paper Scissors</title>
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-5">
+            <div class="display machine"></div>
+            <span class="badge badge-secondary">Machine</span>
+        </div>
+        <div class="col-sm-5">
+            <div class="display user"></div>
+            <span class="badge badge-secondary">User</span>
+        </div>
+        <div class="col-sm-2">
+            <div class="btn-group-vertical">
+                <button class="btn btn-primary" type="button" value="rock">Rock</button>
+                <button class="btn btn-primary" type="button" value="paper">Paper</button>
+                <button class="btn btn-primary" type="button" value="scissors">Scissors</button>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="alert alert-primary result" role="alert"></div>
+        </div>
+    </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>

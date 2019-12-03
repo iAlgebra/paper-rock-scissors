@@ -3,3 +3,7 @@
     border: 5px solid lightcoral;
     background-color: darksalmon;
 }
+
+.hidden {
+    visibility: hidden;
+}

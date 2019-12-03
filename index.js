@@ -7,6 +7,7 @@ $buttons.forEach(function(button) {
     const $resultDisplay = document.querySelector('.result');
     const machineList = ['rock', 'paper', 'scissors'];
     const userChoice = this.value;
+    $resultDisplay.classList.remove('hidden');
     document.querySelector('.display.user').textContent = userChoice;
     const index = Math.floor(Math.random() * machineList.length);
     const machineChoice = machineList[index];
